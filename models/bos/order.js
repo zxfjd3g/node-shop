@@ -1,5 +1,7 @@
 'use strict';
-
+/* 
+订单Model
+*/
 import mongoose from 'mongoose'
 
 const Schema = mongoose.Schema;

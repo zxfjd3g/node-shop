@@ -14,7 +14,8 @@ class AddressComponent extends BaseComponent {
 		this.tencentkey4 = 'Z2BBZ-QBSKJ-DFUFG-FDGT3-4JRYV-JKF5O';
 		this.baidukey = 'fjke3YUipM9N64GdOIh1DNeK2APO2WcT';
 		// this.baidukey2 = 'fjke3YUipM9N64GdOIh1DNeK2APO2WcT';
-	}
+  }
+  
 	//获取定位地址
 	async guessPosition(req){
 		return new Promise(async (resolve, reject) => {
@@ -73,7 +74,8 @@ class AddressComponent extends BaseComponent {
 	 			reject(err);
 	 		}
 		})
-	}
+  }
+  
 	//搜索地址
 	async searchPlace(keyword, cityName, type = 'search'){
 		try{
@@ -91,7 +93,8 @@ class AddressComponent extends BaseComponent {
 		}catch(err){
 			throw new Error(err);
 		}
-	}
+  }
+  
 	//测量距离
 	async getDistance(from, to, type){
 		try{
@@ -140,7 +143,8 @@ class AddressComponent extends BaseComponent {
 			console.log('获取位置距离失败');
 			throw new Error(err);
 		}
-	}
+  }
+  
 	//通过ip地址获取精确位置
 	async geocoder(req){
 		try{
@@ -171,7 +175,8 @@ class AddressComponent extends BaseComponent {
 			console.log('geocoder获取定位失败', err);
 			throw new Error(err);
 		}
-	}
+  }
+  
 	//通过geohash获取精确位置
 	async getpois(lat, lng){
 		try{

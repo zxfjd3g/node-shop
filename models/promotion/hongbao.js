@@ -1,5 +1,7 @@
 'use strict'
-
+/* 
+红包Model
+*/
 import mongoose from 'mongoose'
 import hongbaoData from '../../InitData/hongbao'
 

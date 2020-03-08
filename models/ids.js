@@ -3,15 +3,15 @@
 import mongoose from 'mongoose'
 
 const idsSchema = new mongoose.Schema({
-	restaurant_id: Number,
-	food_id: Number,
-	order_id: Number,
-	user_id: Number,
-	address_id: Number,
-	cart_id: Number,
-	img_id: Number,
-	category_id: Number,
-	item_id: Number,
+	restaurant_id: Number, // 商铺ID
+	food_id: Number, // Food ID
+	order_id: Number, // 订单ID
+	user_id: Number, // 用户ID
+	address_id: Number, // 地址ID
+	cart_id: Number, // 购物车ID
+	img_id: Number, // 图片ID
+	category_id: Number, // 分类ID
+	item_id: Number,  
 	sku_id: Number, 
 	admin_id: Number,
 	statis_id: Number,
@@ -38,4 +38,5 @@ Ids.findOne((err, data) => {
 		newIds.save();
 	}
 })
+
 export default Ids

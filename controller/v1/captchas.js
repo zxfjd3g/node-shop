@@ -13,6 +13,7 @@ class Captchas {
         p.color(0, 0, 0, 0); 
         p.color(80, 80, 80, 255);
         const base64 = p.getBase64();
+        console.log('captcha', cap)
         res.cookie('cap', cap, { maxAge: 300000, httpOnly: true });
         res.send({
             status: 1,
