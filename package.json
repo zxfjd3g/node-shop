@@ -1,9 +1,9 @@
 {
-  "name": "node-elm",
+  "name": "node-shop",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "author": "cangdu <1264889788@qq.com>",
+  "author": "zxfjd3g <258147149@qq.com>",
   "license": "GPL",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bailicangdu/node-elm"
+    "url": "https://github.com/zxfjd3g/node-shop"
   },
   "dependencies": {
     "babel": "^6.23.0",
