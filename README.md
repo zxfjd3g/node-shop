@@ -1,6 +1,6 @@
 ## API接口文档
 
-## [接口文档地址](https://github.com/zxfjd3g/node-shop/API文档.md)
+## [接口文档地址](https://github.com/zxfjd3g/node-shop/blob/master/API文档.md)
 
 
 ## 项目布局
